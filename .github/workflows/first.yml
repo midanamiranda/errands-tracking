@@ -33,4 +33,4 @@ jobs:
       
       # Run your unit tests
       - name: Run Unit Tests
-        run: ./gradlew testStagingDebugUnitTest
+        run: ./gradlew test
