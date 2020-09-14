@@ -2,6 +2,8 @@
 
 Simple ̷T̷o̷-̷d̷o̷  Errands Tracking application focused on REST API consuming using Retrofit2, Hilt, Coroutines and MockWebServer, all through Test Driven Development approach.
 
+[![CI Actions Status](https://github.com/midanamiranda/errands-tracking/workflows/CI/badge.svg)](https://github.com/midanamiranda/errands-tracking/actions)
+
 ## Introduction
 
 This Errands Tracking Application is for learning purposes, as it works with dummy data to show REST API consuming using _soa_ Android development tools.
