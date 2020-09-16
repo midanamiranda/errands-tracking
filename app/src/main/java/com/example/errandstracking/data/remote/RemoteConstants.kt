@@ -6,4 +6,6 @@ object Endpoints {
 
     const val GET_ALL_ERRANDS_PATH = "todos"
 
+    const val POST_ERRAND_PATH = "todos"
+
 }

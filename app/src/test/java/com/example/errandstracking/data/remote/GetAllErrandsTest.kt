@@ -8,6 +8,7 @@ import com.example.errandstracking.data.remote.api.ErrandsTrackingServiceHelper
 import com.example.errandstracking.data.remote.api.ErrandsTrackingServiceHelperImpl
 import com.example.errandstracking.data.remote.api.RetrofitBuilder
 import com.example.errandstracking.utils.ErrandsServiceTestUtils
+import com.example.errandstracking.utils.USER_ID
 import com.example.errandstracking.utils.getAllErrandsEmptyResponsePath
 import com.example.errandstracking.utils.getAllErrandsResponsePath
 import junit.framework.TestCase
@@ -25,8 +26,6 @@ import retrofit2.HttpException
 import java.net.HttpURLConnection
 
 class GetAllErrandsTest {
-
-    private val USER_ID = 2
 
     @get:Rule
     val testInstantTaskExecutorRule: TestRule = InstantTaskExecutorRule()
@@ -51,7 +50,7 @@ class GetAllErrandsTest {
     }
 
     @Test
-    fun `dummy json returns valid errands list`() {
+    fun `get all errands dummy response json returns valid errands list`() {
         val errandsListResponse = ErrandsServiceTestUtils.getAllErrandsResponseTestObject()
         TestCase.assertNotNull(errandsListResponse)
         TestCase.assertFalse(errandsListResponse.isNullOrEmpty())
