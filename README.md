@@ -25,38 +25,40 @@ If you want to catch up with the resources used in the application:
 
 ### Implemented
 * Dependency Injection through Hilt
-** ApiModule to Retrofit related injections
+ * ApiModule to Retrofit related injections
 * Retrofit
-** Custom OkHttpClient
-** MediaTypeInterceptor
-** RetrofitBuilder
-** ErrandsTrackingService with GET and POST requests
-** ErrandsTrackingServiceHelper
+ * Custom OkHttpClient
+ * MediaTypeInterceptor
+ * RetrofitBuilder
+ * ErrandsTrackingService with GET and POST requests
+ * ErrandsTrackingServiceHelper
 * Testing
-** TestUtils
-** Unit Tests on all services and helpers methods
-** MockWebServer mock responses
+ * TestUtils
+ * Unit Tests on all services and helpers methods
+ * MockWebServer mock responses
 * Globals
-** Result class to pass resources through layers
-** Custom Exception
+ * Result class to pass resources through layers
+ * Custom Exception
 
 ### Planned
 * Architecture
-** Add ViewModel layer
+ * Add ViewModel layer
 * View
-** Create list view to present errands
-** Create view to add and edit errands
+ * Create list view to present errands
+ * Create view to add and edit errands
 * Retrofit
-** Custom GsonConverter
-** Add PUT and DELETE methods
+ * Custom GsonConverter
+ * Add PUT and DELETE methods
 * View model injection
 * Data storage using DataStore
 * Testing
-** Add tests for viewmodel
-** Add tests for new services call
+ * Add tests for viewmodel
+ * Add tests for new services call
 
 
 ## Thank You
 
 Trynig to provide a nice and clean implementation for Android development using Kotlin and applying Google best practices.
 Hope my vision suits your needs and if so, please join me in the journey.
+
+There is a [Linkedin article](https://www.linkedin.com/pulse/kotlin-consuming-rest-apis-using-retrofit2-tdd-aproach-miranda) for this repository that gives you a ste-by-step Retrofit2 implementation through TDD.
